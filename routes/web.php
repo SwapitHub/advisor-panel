@@ -15,7 +15,6 @@ use App\Models\Settings;
 		| contains the "web" middleware group. Now create something great!
 		|
 	*/
-
 $prefix = Settings::first()->route_web_prifix ?? 'admin';
 Auth::routes();
 
